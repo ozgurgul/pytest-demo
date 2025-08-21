@@ -32,3 +32,4 @@ mkdocs-material>=9.4.0
 # Utilities for examples
 faker>=19.6.0
 factory-boy>=3.3.0
+httpx>=0.28.1
