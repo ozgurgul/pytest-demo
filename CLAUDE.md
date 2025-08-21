@@ -28,7 +28,7 @@ uvicorn src.api:app --reload
 make run-api
 
 # Use CLI (requires running API server)
-python -m src.cli --help
+python -m src.cli --help # /usr/local/opt/python@3.10/bin/python3.10 -m src.cli --help
 python -m src.cli health
 python -m src.cli create-user --name "John Doe" --email "john@example.com"
 ```
